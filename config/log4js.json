@@ -1,0 +1,13 @@
+{
+  "appenders": [
+    {
+      "type": "console"
+    }
+  ],
+  "replaceConsole": true,
+  "levels": {
+    "jm-server":"info",
+    "jm-ms-ws:server": "info",
+    "jm-ms-http:server": "info"
+  }
+}
