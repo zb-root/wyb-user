@@ -18,7 +18,7 @@
   "author": "Quokka",
   "license": "ISC",
   "dependencies": {
-    "jm-user": "^1.0.24"
+    "jm-user": "^1.0.25"
   },
   "devDependencies": {
     "jm-server-acl": "^1.0.0",
