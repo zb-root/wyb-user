@@ -28,7 +28,7 @@ let config = {
     port: 80,
     lng: 'zh_CN',
     db: 'mongodb://mongo.db/user',
-    gateway: 'http://gateway.app',
+    gateway: 'http://gateway.wyb',
     avatarDir: process.cwd() + '/../uploads',
     avatarPrefix: '/avatar',
     tokenExpire: 3600,
