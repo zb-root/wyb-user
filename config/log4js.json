@@ -1,0 +1,22 @@
+{
+  "appenders": [
+    {
+      "type": "dateFile",
+      "filename": "logs/server",
+      "pattern": "yyyyMMdd.log",
+      "alwaysIncludePattern": true,
+      "category": ["main", "jm-server", "jm-ms-message", "console"]
+    },
+    {
+      "type": "console",
+      "category": ["main", "jm-server", "console"]
+    }
+  ],
+  "replaceConsole": true,
+  "levels": {
+    "main": "debug",
+    "jm-server":"info",
+    "jm-ms-ws:server": "info",
+    "jm-ms-http:server": "info"
+  }
+}
